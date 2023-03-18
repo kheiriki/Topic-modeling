@@ -1,4 +1,4 @@
-#Topic Modeling
+# Topic Modeling
 
 This code implements topic modeling on a set of text files in a folder using natural language processing techniques. The code loads the text files into a pandas dataframe, preprocesses the text by expanding abbreviations, expanding contractions, removing apostrophes, removing links, removing extra symbols, and removing accented characters. It then splits the text into sentences and performs topic modeling using a count vectorizer and K-means clustering. The resulting clusters are plotted, and their top keywords are displayed.
 
