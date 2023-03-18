@@ -1,4 +1,5 @@
 #Topic Modeling
+
 This code implements topic modeling on a set of text files in a folder using natural language processing techniques. The code loads the text files into a pandas dataframe, preprocesses the text by expanding abbreviations, expanding contractions, removing apostrophes, removing links, removing extra symbols, and removing accented characters. It then splits the text into sentences and performs topic modeling using a count vectorizer and K-means clustering. The resulting clusters are plotted, and their top keywords are displayed.
 
 The code also loads text data from three different sources and performs several NLP tasks on them, such as sentence segmentation, word tokenization, and n-gram extraction (bigrams and trigrams). It generates word clouds to visualize the most frequently occurring bigrams and trigrams.
